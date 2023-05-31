@@ -214,7 +214,7 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
 
             if (this._httpContextAccessor != null)
             {
-                var user = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Hash).Value;
+                var user = "teste"; // this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Hash).Value;
                 entity.EntityControl.RegistrarAlteracao(user);
             }
 

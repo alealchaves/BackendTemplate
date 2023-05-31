@@ -22,14 +22,13 @@ namespace ElevaMobile.Domain.Services.Usuario
             var senhaAntiga = alterarSenhaRequest.Senha.ToSHA();
             var senhaNova = alterarSenhaRequest.NovaSenha.ToSHA();
 
-            if (!alterarSenhaRequest.NovaSenha.Equals(senhaAntiga))
+            if (alterarSenhaRequest.NovaSenha.Equals(senhaAntiga))
             {
-                result.AddError("Senha anterior incorreta");
+                result.AddError("Senha nova incorreta");
                 return result;
             }
 
             var usuario = await _usuarioRepository.SelectByHash(alterarSenhaRequest.Hash);
-
             usuario.Senha = senhaNova;
 
             await _usuarioRepository.Update(usuario);

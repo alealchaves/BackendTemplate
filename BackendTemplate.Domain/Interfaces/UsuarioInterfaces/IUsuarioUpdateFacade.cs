@@ -3,7 +3,7 @@ using BackendTemplate.Domain.Core.Interfaces;
 using BackendTemplate.Domain.DTO.UsuarioDTOs;
 using System.Threading.Tasks;
 
-namespace BarramentoPedagogico.Application.Usuario
+namespace BackendTemplate.Domain.Interfaces.UsuarioInterfaces
 {
     public interface IUsuarioUpdateFacade : IBaseFacade
     {
