@@ -6,6 +6,8 @@ namespace BackendTemplate.Domain.Entities
     {        
         public virtual int UsuarioId { get; set; }
         public virtual int PerfilId { get; set; }
+        public virtual Perfil Perfil { get; set; }
+        public virtual Usuario Usuario { get; set; }
     }
 }
 

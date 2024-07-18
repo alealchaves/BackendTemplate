@@ -12,6 +12,8 @@ namespace BackendTemplate.Domain.DTO.UsuarioDTOs
         public bool Ativo { get; set; }
         public Guid Hash { get; set; }
         public DateTime DataInclusao { get; set; }
-        public ICollection<UsuarioPerfil> UsuarioPerfis { get; set; }
+        public ICollection<KeyValuePair<int, string>> UsuarioPerfis { get; set; }
+        public string Perfil { get; set; }
+
     }
 }

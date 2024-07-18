@@ -17,6 +17,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.IO;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace BackendTemplate.Api
 {
@@ -32,6 +33,9 @@ namespace BackendTemplate.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient();
+
+            //services.AddControllersWithViews().AddJsonOptions(
+            // options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
             services.AddControllers(options =>
             {
@@ -84,12 +88,13 @@ namespace BackendTemplate.Api
             services.AddAutoMapperDependencies();
 
             services.AddHttpContextAccessor();
-
             ConfigureSwagger(services);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors(DefaultCorsPolicyName);
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -103,8 +108,6 @@ namespace BackendTemplate.Api
             app.UseAuthentication();
 
             app.UseAuthorization();
-
-            app.UseCors(DefaultCorsPolicyName);
 
             app.UseEndpoints(endpoints =>
             {

@@ -12,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
+using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,7 +64,7 @@ namespace BackendTemplate.Api.Controllers
 
                 foreach (var perfilUsuario in usuario.Data.UsuarioPerfis)
                 {
-                    var perfilRequest = new PerfilRequest(perfilUsuario.PerfilId);
+                    var perfilRequest = new PerfilRequest(perfilUsuario.Key);
                     var perfil = await perfilSelectFacade.Select(perfilRequest);
                     Claim claim = new Claim(ClaimTypes.Role, perfil.Data.Nome);
                     claims.Add(claim);

@@ -4,6 +4,7 @@ using BackendTemplate.Domain.DTO.PerfilDTOs;
 using BackendTemplate.Domain.Interfaces.PerfilInterfaces;
 using BackendTemplate.Domain.Interfaces.UsuarioInterfaces;
 using FluentValidation.Results;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace BackendTemplate.Domain.Services.Perfil
@@ -26,6 +27,16 @@ namespace BackendTemplate.Domain.Services.Perfil
             result.Data = perfil;
 
             return result;
-        }        
+        }
+
+        public async Task<ServiceResult<ICollection<PerfilResponse>>> Select()
+        {
+            var result = new ServiceResult<ICollection<PerfilResponse>>();
+            var perfis = await _perfilRepository.Select<PerfilResponse>();
+
+            result.Data = perfis;
+
+            return result;
+        }
     }
 }

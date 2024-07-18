@@ -5,6 +5,7 @@ namespace BackendTemplate.Domain.Interfaces.PerfilInterfaces
 {
     public interface IPerfilRepository :
         IBaseRepository,
+        IRepositorySelect<Perfil>,
         IRepositorySelectById<Perfil>
     {
     }

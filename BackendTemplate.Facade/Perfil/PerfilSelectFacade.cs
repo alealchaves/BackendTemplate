@@ -1,6 +1,7 @@
 ﻿using BackendTemplate.Domain.Core.DTO;
 using BackendTemplate.Domain.DTO.PerfilDTOs;
 using BackendTemplate.Domain.Interfaces.PerfilInterfaces;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace BarramentoPedagogico.Application.Usuario
@@ -18,5 +19,11 @@ namespace BarramentoPedagogico.Application.Usuario
         {
             return _service.Select(perfilRequest);
         }
+
+        public Task<ServiceResult<ICollection<PerfilResponse>>> Select()
+        {
+            return _service.Select();
+        }
+
     }
 }
