@@ -15,6 +15,7 @@ namespace BackendTemplate.Domain.Core.Entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public virtual Guid Hash { get; set; }
 
+        [Required]
         public virtual EntityControl EntityControl { get; set; }
     }
 }

@@ -20,8 +20,8 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
     public abstract class GeneralRepository<T> : Repository<T>, IRepository<T> where T : GeneralEntity
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
-        protected GeneralRepository(MyAppContext context, IMapper mapper, 
-            IHttpContextAccessor httpContextAccessor) : base(context, mapper) 
+        protected GeneralRepository(MyAppContext context, IMapper mapper,
+            IHttpContextAccessor httpContextAccessor) : base(context, mapper)
         {
             this._httpContextAccessor = httpContextAccessor;
         }
@@ -37,9 +37,9 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
 
         {
             var result = Queryable<TEntity>(stateless);
-
+            
             if (HasEntityControl())
-                result = result.Where(p => p.EntityControl != null ? p.EntityControl.Ativo.Equals(true) : true);
+                result = result.Where(p => p.EntityControl.Ativo.Equals(true));
 
             return result;
         }
@@ -57,7 +57,7 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
             var result = Queryable<TEntity>(stateless);
 
             if (HasEntityControl())
-                result = result.Where(p => p.EntityControl != null ? 
+                result = result.Where(p => p.EntityControl != null ?
                 p.EntityControl.Ativo.Equals(false) : true);
 
             return result;
@@ -177,12 +177,10 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
 
         public new async Task<T> Insert(T entity)
         {
-            if (entity.EntityControl == null)
-                entity.EntityControl = new EntityControl();
-
             if (this._httpContextAccessor != null)
             {
-                var user = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Hash).Value;
+                entity.EntityControl = new EntityControl();
+                var user = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name).Value;
                 entity.EntityControl.RegistrarInclusao(user);
             }
 
@@ -214,7 +212,7 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
 
             if (this._httpContextAccessor != null)
             {
-                var user = "teste"; // this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Hash).Value;
+                var user = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name).Value;
                 entity.EntityControl.RegistrarAlteracao(user);
             }
 
@@ -238,12 +236,10 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
 
         public new async Task<T> Disable(T entity)
         {
-            if (entity.EntityControl == null)
-                entity.EntityControl = new EntityControl();
-
             if (this._httpContextAccessor != null)
             {
-                var user = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Hash).Value;
+                entity.EntityControl = new EntityControl();
+                var user = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name).Value;
                 entity.EntityControl.RegistrarInativacao(user);
             }
 
@@ -283,7 +279,7 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
         }
 
         private Task<PagedListResponse<TDTO>> GetPrivatePaged<TDTO>(
-            Expression<Func<T, bool>> predicate, int page = 1, 
+            Expression<Func<T, bool>> predicate, int page = 1,
             int pageSize = 10, bool countTotal = false)
         {
             var queryable = QueryableAtivos();

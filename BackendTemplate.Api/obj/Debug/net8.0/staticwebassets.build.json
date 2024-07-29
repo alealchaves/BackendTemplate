@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xOeOKMljwIOhuXEax1APMW9dSJviswGwV2OqtOZsyhs=",
+  "Source": "BackendTemplate.Api",
+  "BasePath": "_content/BackendTemplate.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

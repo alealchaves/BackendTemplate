@@ -5,6 +5,7 @@ using BackendTemplate.Domain.DTO.UsuarioDTOs;
 using BackendTemplate.Domain.Interfaces.PerfilInterfaces;
 using BackendTemplate.Domain.Interfaces.UsuarioInterfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
@@ -28,15 +29,20 @@ namespace BackendTemplate.Api.Controllers
     {
         private readonly ILogger<OauthController> _logger;
         public IConfiguration _Configuration { get; }
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
         /// <summary>
         /// Construtor do UsuarioController
         /// </summary>
         /// <param name="logger"></param>
-        public OauthController(ILogger<OauthController> logger, IConfiguration configuration)
+        public OauthController(
+            ILogger<OauthController> logger,
+            IConfiguration configuration,
+            IHttpContextAccessor httpContextAccessor)
         {
             this._logger = logger;
             this._Configuration = configuration;
+            this._httpContextAccessor = httpContextAccessor;
         }
 
         [HttpPost("oauth")]
@@ -70,9 +76,12 @@ namespace BackendTemplate.Api.Controllers
                     claims.Add(claim);
                 }
 
+                var claimsIdentity = new ClaimsIdentity(claims);
+                var claimsIdentityList = new List<ClaimsIdentity>() { claimsIdentity };
+
                 var tokenDescriptor = new SecurityTokenDescriptor
                 {
-                    Subject = new ClaimsIdentity(claims),
+                    Subject = claimsIdentity,
                     Expires = DateTime.UtcNow.AddHours(2),
                     SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
                         SecurityAlgorithms.HmacSha256Signature)
