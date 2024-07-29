@@ -57,8 +57,7 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
             var result = Queryable<TEntity>(stateless);
 
             if (HasEntityControl())
-                result = result.Where(p => p.EntityControl != null ?
-                p.EntityControl.Ativo.Equals(false) : true);
+                result = result.Where(p => p.EntityControl.Ativo.Equals(false));
 
             return result;
         }
@@ -180,7 +179,8 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
             if (this._httpContextAccessor != null)
             {
                 entity.EntityControl = new EntityControl();
-                var user = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name).Value;
+                var claimUser = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name);
+                var user = claimUser != null ? claimUser.Value : "SWAGGER";
                 entity.EntityControl.RegistrarInclusao(user);
             }
 
@@ -202,22 +202,20 @@ namespace BackendTemplate.Infra.Data.Core.Repositories
 
         public new async Task<T> Update(T entity)
         {
-            var local = dbSet.Local.FirstOrDefault(p => p.Id == entity.Id);
+            //var local = dbSet.Local.FirstOrDefault(p => p.Id == entity.Id);
 
-            if (local != null)
-                _context.Entry(local).State = EntityState.Detached;
-
-            if (entity.EntityControl == null)
-                entity.EntityControl = new EntityControl();
+            //if (local != null)
+            //    _context.Entry(local).State = EntityState.Detached;
 
             if (this._httpContextAccessor != null)
             {
-                var user = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name).Value;
+                var claimUser = this._httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name);
+                var user = claimUser != null ? claimUser.Value : "SWAGGER";
                 entity.EntityControl.RegistrarAlteracao(user);
             }
 
-            dbSet.Attach(entity);
-            _context.Entry(entity).State = EntityState.Modified;
+            //dbSet.Attach(entity);
+            //_context.Entry(entity).State = EntityState.Modified;
 
             await _context.SaveChangesAsync();
 

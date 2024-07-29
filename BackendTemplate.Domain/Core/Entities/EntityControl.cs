@@ -46,7 +46,7 @@ namespace BackendTemplate.Domain.Core.Entities
 
         public void RegistrarAlteracao(string usuario = null)
         {
-            this.DataUltimaAlteracao = DateTime.Now;
+            this.DataUltimaAlteracao = DateTime.Now.Date;
 
             if (!string.IsNullOrWhiteSpace(usuario))
             {

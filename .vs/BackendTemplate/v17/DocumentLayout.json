@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|solutionrelative:backendtemplate.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|solutionrelative:backendtemplate.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.api\\core\\filter\\apiexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|solutionrelative:backendtemplate.api\\core\\filter\\apiexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E07D3682-281D-4843-B825-6A53D900DB30}|BackendTemplate.Domain\\BackendTemplate.Domain.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.domain\\core\\entities\\entitycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E07D3682-281D-4843-B825-6A53D900DB30}|BackendTemplate.Domain\\BackendTemplate.Domain.csproj|solutionrelative:backendtemplate.domain\\core\\entities\\entitycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75A83E0B-239C-4C27-B247-1BF867DFADBE}|BackendTemplate.Domain.Services\\BackendTemplate.Domain.Services.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.domain.services\\usuario\\validator\\usuariologinrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A83E0B-239C-4C27-B247-1BF867DFADBE}|BackendTemplate.Domain.Services\\BackendTemplate.Domain.Services.csproj|solutionrelative:backendtemplate.domain.services\\usuario\\validator\\usuariologinrequestvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{073C6ECF-98A2-40FC-99EB-78D5A8B63F68}|BackendTemplate.Infra.Data\\BackendTemplate.Infra.Data.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.infra.data\\core\\repositories\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{073C6ECF-98A2-40FC-99EB-78D5A8B63F68}|BackendTemplate.Infra.Data\\BackendTemplate.Infra.Data.csproj|solutionrelative:backendtemplate.infra.data\\core\\repositories\\generalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.api\\controllers\\oauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|solutionrelative:backendtemplate.api\\controllers\\oauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75A83E0B-239C-4C27-B247-1BF867DFADBE}|BackendTemplate.Domain.Services\\BackendTemplate.Domain.Services.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.domain.services\\usuario\\usuarioupdateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75A83E0B-239C-4C27-B247-1BF867DFADBE}|BackendTemplate.Domain.Services\\BackendTemplate.Domain.Services.csproj|solutionrelative:backendtemplate.domain.services\\usuario\\usuarioupdateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|solutionrelative:backendtemplate.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08D80F9B-BB49-4843-80F7-3141512461C3}|BackendTemplate.Api\\BackendTemplate.Api.csproj|solutionrelative:backendtemplate.api\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EBD7498-609E-4BAC-9EC0-0CD86F1EB4C3}|BackendTemplate.Facade\\BackendTemplate.Facade.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.facade\\usuario\\usuarioupdatefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBD7498-609E-4BAC-9EC0-0CD86F1EB4C3}|BackendTemplate.Facade\\BackendTemplate.Facade.csproj|solutionrelative:backendtemplate.facade\\usuario\\usuarioupdatefacade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{073C6ECF-98A2-40FC-99EB-78D5A8B63F68}|BackendTemplate.Infra.Data\\BackendTemplate.Infra.Data.csproj|c:\\users\\aleal\\onedrive\\documentos\\visual studio 2019\\github\\backendtemplate\\backendtemplate.infra.data\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{073C6ECF-98A2-40FC-99EB-78D5A8B63F68}|BackendTemplate.Infra.Data\\BackendTemplate.Infra.Data.csproj|solutionrelative:backendtemplate.infra.data\\myappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,92 +43,92 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "BackendTemplate.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\appsettings.json",
-              "RelativeToolTip": "BackendTemplate.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-26T18:04:43.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Startup.cs",
               "RelativeDocumentMoniker": "BackendTemplate.Api\\Startup.cs",
               "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Startup.cs",
               "RelativeToolTip": "BackendTemplate.Api\\Startup.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAUwCAAAABCAAAA",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAcwKcAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:57:00.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "BackendTemplate.Api\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "BackendTemplate.Api\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:44:28.725Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OauthController.cs",
-              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Controllers\\OauthController.cs",
-              "RelativeDocumentMoniker": "BackendTemplate.Api\\Controllers\\OauthController.cs",
-              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Controllers\\OauthController.cs",
-              "RelativeToolTip": "BackendTemplate.Api\\Controllers\\OauthController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAADwvzYAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:35:28.579Z",
+              "WhenOpened": "2024-07-29T18:12:46.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GeneralRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Infra.Data\\Core\\Repositories\\GeneralRepository.cs",
-              "RelativeDocumentMoniker": "BackendTemplate.Infra.Data\\Core\\Repositories\\GeneralRepository.cs",
-              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Infra.Data\\Core\\Repositories\\GeneralRepository.cs",
-              "RelativeToolTip": "BackendTemplate.Infra.Data\\Core\\Repositories\\GeneralRepository.cs",
-              "ViewState": "AQIAAJ4AAAAAAAAAAAAuwMgAAAAJAAAA",
+              "Title": "UsuarioUpdateService.cs",
+              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Domain.Services\\Usuario\\UsuarioUpdateService.cs",
+              "RelativeDocumentMoniker": "BackendTemplate.Domain.Services\\Usuario\\UsuarioUpdateService.cs",
+              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Domain.Services\\Usuario\\UsuarioUpdateService.cs",
+              "RelativeToolTip": "BackendTemplate.Domain.Services\\Usuario\\UsuarioUpdateService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwB4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T21:35:15.201Z",
+              "WhenOpened": "2024-07-29T17:35:50.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EntityControl.cs",
-              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Domain\\Core\\Entities\\EntityControl.cs",
-              "RelativeDocumentMoniker": "BackendTemplate.Domain\\Core\\Entities\\EntityControl.cs",
-              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Domain\\Core\\Entities\\EntityControl.cs",
-              "RelativeToolTip": "BackendTemplate.Domain\\Core\\Entities\\EntityControl.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Title": "GeneralRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Infra.Data\\Core\\Repositories\\GeneralRepository.cs",
+              "RelativeDocumentMoniker": "BackendTemplate.Infra.Data\\Core\\Repositories\\GeneralRepository.cs",
+              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Infra.Data\\Core\\Repositories\\GeneralRepository.cs",
+              "RelativeToolTip": "BackendTemplate.Infra.Data\\Core\\Repositories\\GeneralRepository.cs",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAYwMoAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T20:07:58.636Z",
+              "WhenOpened": "2024-07-29T17:53:53.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApiExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Core\\Filter\\ApiExceptionFilter.cs",
-              "RelativeDocumentMoniker": "BackendTemplate.Api\\Core\\Filter\\ApiExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Core\\Filter\\ApiExceptionFilter.cs",
-              "RelativeToolTip": "BackendTemplate.Api\\Core\\Filter\\ApiExceptionFilter.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAArwDUAAAANAAAA",
+              "Title": "UsuarioLoginRequestValidator.cs",
+              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Domain.Services\\Usuario\\Validator\\UsuarioLoginRequestValidator.cs",
+              "RelativeDocumentMoniker": "BackendTemplate.Domain.Services\\Usuario\\Validator\\UsuarioLoginRequestValidator.cs",
+              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Domain.Services\\Usuario\\Validator\\UsuarioLoginRequestValidator.cs",
+              "RelativeToolTip": "BackendTemplate.Domain.Services\\Usuario\\Validator\\UsuarioLoginRequestValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T18:24:47.423Z",
+              "WhenOpened": "2024-07-29T17:44:49.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MyAppContext.cs",
+              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Infra.Data\\MyAppContext.cs",
+              "RelativeDocumentMoniker": "BackendTemplate.Infra.Data\\MyAppContext.cs",
+              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Infra.Data\\MyAppContext.cs",
+              "RelativeToolTip": "BackendTemplate.Infra.Data\\MyAppContext.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:34:49.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioUpdateFacade.cs",
+              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Facade\\Usuario\\UsuarioUpdateFacade.cs",
+              "RelativeDocumentMoniker": "BackendTemplate.Facade\\Usuario\\UsuarioUpdateFacade.cs",
+              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Facade\\Usuario\\UsuarioUpdateFacade.cs",
+              "RelativeToolTip": "BackendTemplate.Facade\\Usuario\\UsuarioUpdateFacade.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T17:40:00.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "BackendTemplate.Api\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\aleal\\OneDrive\\Documentos\\Visual Studio 2019\\Github\\BackendTemplate\\BackendTemplate.Api\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "BackendTemplate.Api\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAwwDcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:07:16.133Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,5 @@
 ﻿using BackendTemplate.Api.Core.Controller;
+using BackendTemplate.Domain.DTO.UsuarioDTOs;
 using BackendTemplate.Domain.Interfaces.UsuarioInterfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -38,6 +39,22 @@ namespace BackendTemplate.Api.Controllers
         {
             var result = await facade.Select();
             return Result(result);
-        }     
+        }
+
+        /// <summary>
+        /// Lista os usuarios
+        /// </summary>        
+        /// <returns></returns>
+        [HttpPut("AlterarSenha")]
+        [HttpOptions("AlterarSenha")]
+        //[Authorize(Roles = "Admin")]
+        [ApiExplorerSettings(IgnoreApi = false)]
+        public async Task<IActionResult> AlterarSenha(
+            [FromServices] IUsuarioUpdateFacade facade,
+            AlterarSenhaRequest alterarSenhaRequest)
+        {
+            var result = await facade.AlterarSenha(alterarSenhaRequest);
+            return Result(result);
+        }
     }
 }
