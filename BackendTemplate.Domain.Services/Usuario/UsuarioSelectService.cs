@@ -15,6 +15,7 @@ namespace BackendTemplate.Domain.Services.Usuario
         private readonly IUsuarioLoginRequestValidator _usuarioValidator;
         private readonly IGlobalizationResource _localizer;
         private readonly IUsuarioRepository _usuarioRepository;
+
         public UsuarioSelectService(
             IUsuarioRepository usuarioRepository,
             IUsuarioLoginRequestValidator usuarioValidator,

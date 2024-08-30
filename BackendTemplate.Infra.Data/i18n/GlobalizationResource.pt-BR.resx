@@ -120,4 +120,7 @@
   <data name="usuarioSenhaIncorretos" xml:space="preserve">
     <value>Usuário e/ou senha inválidos!</value>
   </data>
+  <data name="usuarioSenhasDiferentes" xml:space="preserve">
+    <value>Senhas diferentes!</value>
+  </data>
 </root>
