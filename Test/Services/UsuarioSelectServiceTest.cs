@@ -48,7 +48,7 @@ namespace Test.Services
             fixture = new Fixture();
             fixture.Behaviors.OfType<ThrowingRecursionBehavior>().ToList()
                 .ForEach(b => fixture.Behaviors.Remove(b));
-            //fixture.Behaviors.Add(new OmitOnRecursionBehavior());
+            fixture.Behaviors.Add(new OmitOnRecursionBehavior());
             return fixture;
         }
     }
